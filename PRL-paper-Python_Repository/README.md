@@ -1,4 +1,4 @@
-### Python Codes for the stability analysis 
+### Python Codes for Stability Analysis 
 This repository contains two scripts in Python written to perform the complementary study on the stability analysis regarding the work related to the manuscript: `The Constructive Role of Noise in Cell Fate Induction`. 
 The package dependencies are manage with Poetry. Installation steps are given below: 
 
