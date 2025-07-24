@@ -1,0 +1,25 @@
+[project]
+name = "prl-paper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "silvia-martina",email = "silvia.martina@lnds.lu"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy (>=2.3.1,<3.0.0)",
+    "sympy (>=1.14.0,<2.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "prl_paper", from = "src"}]
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
