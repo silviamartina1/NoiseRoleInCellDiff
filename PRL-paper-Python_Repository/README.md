@@ -17,5 +17,3 @@ The second script is executed by the following command:
 
 It allows to create the Fig.2a in the main text. It allows to study the nature of the steady states by checking the eigenvalues of the system dynamics. 
 
-## License
-This project is licensed under the Apache License 2.0. For more details, see the [LICENSE](./LICENSE) file.
